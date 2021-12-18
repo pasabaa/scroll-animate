@@ -2,7 +2,7 @@ AOS.init({
   delay:200
 });
 
-function changeDarkMode(){
+function changeTheme(){
 
   var content = document.getElementById('content');
   var card = document.getElementsByClassName('card');
