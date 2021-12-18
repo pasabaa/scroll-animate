@@ -3,6 +3,11 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: #30332E;
+    transition: all 400ms ease-in-out;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
 }
 
 .fs-8 {
@@ -18,6 +23,16 @@ body {
   backdrop-filter: blur(10px);
 }
 
-.text-black {
+.dark-theme {
+  background-color: #30332E;
   color: rgb(214, 214, 214);
+  transition: all 400ms ease-in-out;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+}
+
+.bg-dark-variant {
+  background-color: #282b27;
 }
