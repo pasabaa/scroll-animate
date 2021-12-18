@@ -1,0 +1,23 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #30332E;
+}
+
+.fs-8 {
+  font-size: 14px;
+}
+
+.quote {
+  z-index: -1;
+  color: #bababa;
+}
+
+.card-blur {
+  backdrop-filter: blur(10px);
+}
+
+.text-black {
+  color: rgb(214, 214, 214);
+}
